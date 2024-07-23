@@ -1,0 +1,46 @@
+@media screen and (max-width:768px) {
+    .about-main{
+        flex-direction: column;
+    }
+    .about-skill{
+        width: 80%;
+    }
+    .about-main-img{
+        width: auto;
+    }
+    .footer{
+        flex-direction: column;
+        height: auto;
+
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .card-title{
+        width: auto;
+    }
+    .back{
+        display: none;
+    }
+    .rwdback{
+        display: block;
+    }
+    .rwdback-btn{
+        display: block;
+    }
+    .content{
+        height: auto;
+        margin: 10px 0;
+       
+    }
+    .content-container{
+       margin: 10px 0;
+        flex-direction: column;
+    }
+    .content-container label{
+        font-size: var(--p);
+    }
+}
