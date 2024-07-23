@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Oscar.dev/static/css/main.7852f8f2.css",
+    "main.js": "/Oscar.dev/static/js/main.34c199a6.js",
+    "static/media/image.jpeg": "/Oscar.dev/static/media/image.585537edb1c0edc95ee6.jpeg",
+    "index.html": "/Oscar.dev/index.html",
+    "main.7852f8f2.css.map": "/Oscar.dev/static/css/main.7852f8f2.css.map",
+    "main.34c199a6.js.map": "/Oscar.dev/static/js/main.34c199a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7852f8f2.css",
+    "static/js/main.34c199a6.js"
+  ]
+}
