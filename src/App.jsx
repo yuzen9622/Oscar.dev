@@ -6,7 +6,7 @@ import Navbar from "./component/navbar";
 import "./style/style.RWD.css";
 import Main from "./project";
 import Footer from "./component/footer";
-import Content from "./content";
+import Contact from "./contact";
 function App() {
   return (
     <div>
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Header />} />
         <Route path="/projects" element={<Main />} />
-        <Route path="/content" element={<Content />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

@@ -36,7 +36,7 @@ function Navbar() {
         <div className="back">
           <NavLink to={"/"}>About</NavLink>
           <NavLink to={"/projects"}>Projects</NavLink>
-          <NavLink to={"/content"}>Content</NavLink>
+          <NavLink to={"/contact"}>Contact</NavLink>
         </div>
       </div>
 
@@ -59,8 +59,8 @@ function Navbar() {
           <NavLink onClick={() => setIsOpen(false)} to={"/projects"}>
             Projects
           </NavLink>
-          <NavLink onClick={() => setIsOpen(false)} to={"/content"}>
-            Content
+          <NavLink onClick={() => setIsOpen(false)} to={"/contact"}>
+            Contact
           </NavLink>
         </div>
       </div>

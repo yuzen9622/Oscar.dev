@@ -437,6 +437,7 @@ font-style:oblique;
     color: var(--skin-color);
     font-size: var(--p);
     border: 2px solid var(--skin-color);
+    margin: 10px 0;
     cursor: pointer;
   transition: all .3s;
 }
@@ -448,4 +449,24 @@ font-style:oblique;
 }
 :is(.back,.rwdback) .active{
     text-decoration: underline !important;
+}
+.toast{
+    
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+ display: flex;
+ opacity: 0;
+ visibility: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: #3c3c3ce0;
+    transition: all .3s;
+}
+.toast h2{
+    padding: 10px;
+    border: 2px solid var(--skin-color);
+    transition-delay: .5s;
+    transition: all .5s;
 }

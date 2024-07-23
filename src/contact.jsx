@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Form from "./component/form";
+import Toast from "./component/toast";
 
-function Content() {
+function Contact() {
   const [data, setData] = useState({
     firstName: "",
     secondName: "",
@@ -11,8 +12,12 @@ function Content() {
   });
 
   const [error, setError] = useState(null);
+  const [state, setState] = useState({
+    state: "Submit",
+    ok: false,
+  });
   useEffect(() => {
-    document.title = "Content Me";
+    document.title = "Contact Me";
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting && document.body.offsetTop > 0) {
@@ -43,6 +48,7 @@ function Content() {
       setError("Not vaild email");
       return;
     }
+    setState({ ...state, state: "Loading" });
     const response = await fetch(
       "https://mail-server-vjjz.onrender.com/email/content/send",
       {
@@ -65,13 +71,19 @@ function Content() {
         phone: "",
         message: "",
       });
+      setState({ ...state, ok: true, state: "Submit" });
+      setTimeout(() => {
+        setState({ ...state, ok: false });
+      }, 3000);
       console.log(response.json());
+      return;
     }
+    setState({ ...state, ok: false, state: "Submit" });
   };
 
   return (
     <div className="content">
-      <h1>Content Me</h1>
+      <h1>Contact Me</h1>
       <div className="content-container hiddenY ">
         <Form
           type={"text"}
@@ -128,9 +140,10 @@ function Content() {
           <label htmlFor="msg">Write Some Message</label>
         </div>
       </div>
-      <button onClick={submitFunc}>Submit</button>
+      <button onClick={submitFunc}>{state.state}</button>
+      <Toast show={state.ok} />
     </div>
   );
 }
 
-export default Content;
+export default Contact;

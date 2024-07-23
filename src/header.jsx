@@ -65,9 +65,9 @@ export default function Header() {
                 route={"/projects"}
               />
               <Circle
-                text={"Content"}
+                text={"Contact"}
                 color={"rgb(255, 0, 0)"}
-                route={"/content"}
+                route={"/contact"}
               />
             </div>
           </div>
