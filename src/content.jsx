@@ -12,6 +12,7 @@ function Content() {
 
   const [error, setError] = useState(null);
   useEffect(() => {
+    document.title = "Content Me";
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting && document.body.offsetTop > 0) {

@@ -3,6 +3,7 @@ import myself from "./media/image.jpeg";
 import Circle from "./component/circle";
 export default function Header() {
   useEffect(() => {
+    document.title = "Oscar.dev";
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
