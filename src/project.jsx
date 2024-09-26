@@ -66,11 +66,20 @@ function Main() {
       url: "https://yuzen9622.github.io/web3/",
       picUrl: require("./media/web3.png"),
     },
+    {
+      title: "CloudShare",
+      lang: "HTML、CSS、JS、PHP",
+      content:
+        "這個雲端共享專案旨在提供一個簡單且便捷的文件共享平台。使用者可以快速上傳文件並生成共享鏈接，透過此鏈接他人可直接下載文件。目標是讓使用者能夠隨時隨地通過不同設備輕鬆共享文件。",
+      sorceUrl: "https://github.com/yuzen9622/shareCloud",
+      url: "https://yuzen.lovestoblog.com/frontend/",
+      picUrl: require("./media/cloudshare.png"),
+    },
   ];
   return (
     <div className="main">
       <div className="main-title">
-        <h1>My Project</h1>
+        <h1>My Projects</h1>
       </div>
       <div className="main-container">
         {projects?.map((project, index) => (
