@@ -6,7 +6,7 @@ function Card({
   url = "",
   picUrl = "",
   content,
-  lang = "",
+  lang = [],
   sorceUrl = "",
 }) {
   return (
@@ -31,7 +31,7 @@ function Card({
         <div className="card-title">
           <h3>{title}</h3>
           <p>{content}</p>
-          <p>langauge:{lang}</p>
+          <p>langauge:{lang.join("、")}</p>
         </div>
         <img src={picUrl} alt="" />
       </a>

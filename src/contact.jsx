@@ -42,10 +42,10 @@ function Contact() {
       setError("Email is required");
       return;
     }
-    let regex =
-      /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    let regex = /^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
     if (!regex.test(data.email)) {
-      setError("Not vaild email");
+      setError("Not valid email");
       return;
     }
     setState({ ...state, state: "Loading" });
