@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Oscar.dev/static/css/main.6aa5ce27.css",
-    "main.js": "/Oscar.dev/static/js/main.448e8be0.js",
+    "main.js": "/Oscar.dev/static/js/main.10be846c.js",
     "static/media/web3.png": "/Oscar.dev/static/media/web3.61462953424f3be4c635.png",
     "static/media/cloudshare.png": "/Oscar.dev/static/media/cloudshare.b4c7d4db7c1dc0166f77.png",
     "static/media/image.jpeg": "/Oscar.dev/static/media/image.585537edb1c0edc95ee6.jpeg",
@@ -11,10 +11,10 @@
     "static/media/tictactoe.png": "/Oscar.dev/static/media/tictactoe.98b870d1aecf50e1f4ef.png",
     "index.html": "/Oscar.dev/index.html",
     "main.6aa5ce27.css.map": "/Oscar.dev/static/css/main.6aa5ce27.css.map",
-    "main.448e8be0.js.map": "/Oscar.dev/static/js/main.448e8be0.js.map"
+    "main.10be846c.js.map": "/Oscar.dev/static/js/main.10be846c.js.map"
   },
   "entrypoints": [
     "static/css/main.6aa5ce27.css",
-    "static/js/main.448e8be0.js"
+    "static/js/main.10be846c.js"
   ]
 }
