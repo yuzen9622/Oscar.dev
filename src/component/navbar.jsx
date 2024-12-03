@@ -51,7 +51,11 @@ function Navbar() {
           </button>
         )}
       </div>
-      <div className="rwdback " ref={rwdnav}>
+      <div
+        className="rwdback "
+        style={{ opacity: !isOpen ? 0 : 1 }}
+        ref={rwdnav}
+      >
         <div className="rwdback-container ">
           <NavLink onClick={() => setIsOpen(false)} to={"/"}>
             About

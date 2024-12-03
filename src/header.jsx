@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import myself from "./media/image.jpeg";
 import Circle from "./component/circle";
-export default function Header() {
+export default function Home() {
   useEffect(() => {
     document.title = "Oscar.dev";
     const observer = new IntersectionObserver((entries) => {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Form from "./component/form";
+import Input from "./component/input";
 import Toast from "./component/toast";
 
 function Contact() {
@@ -85,7 +85,7 @@ function Contact() {
     <div className="content">
       <h1>Contact Me</h1>
       <div className="content-container hiddenY ">
-        <Form
+        <Input
           type={"text"}
           onChange={(e) => {
             setData({ ...data, firstName: e.target.value });
@@ -93,7 +93,7 @@ function Contact() {
           value={data.firstName}
           label={"First Name"}
         />
-        <Form
+        <Input
           type={"text"}
           onChange={(e) => {
             setData({ ...data, secondName: e.target.value });
@@ -106,7 +106,7 @@ function Contact() {
         className="content-container hiddenY"
         style={{ transitionDelay: ".1s" }}
       >
-        <Form
+        <Input
           type={"text"}
           onChange={(e) => {
             setData({ ...data, email: e.target.value });
@@ -116,7 +116,7 @@ function Contact() {
           important="true"
           errorText={error}
         />
-        <Form
+        <Input
           type={"text"}
           onChange={(e) => {
             setData({ ...data, phone: e.target.value });

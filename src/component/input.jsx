@@ -1,6 +1,6 @@
 import React from "react";
 
-function Form({
+function Input({
   type,
   label,
   onChange,
@@ -31,4 +31,4 @@ function Form({
   );
 }
 
-export default Form;
+export default Input;

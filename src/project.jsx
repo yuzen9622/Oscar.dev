@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./component/card";
 import { useEffect } from "react";
-import weatherPic from "./media/wetherapp.png";
-function Main() {
+
+function Project() {
   useEffect(() => {
     document.title = "Projects";
     const observer = new IntersectionObserver((entries) => {
@@ -28,7 +28,7 @@ function Main() {
       content:
         "歡迎來到我們的台灣天氣網站，這是一個專為台灣地區設計的天氣資訊平台，致力於為您提供最準確及時的天氣預報。透過我們的網站，您可以輕鬆查詢台灣各地的即時天氣狀況，包括溫度、濕度、風速、降雨量等詳細資訊。我們不僅提供當前天氣預報，還有未來七天的天氣預測，幫助您提前安排日常生活和出行計劃。無論您是在台北、高雄、台中還是花蓮，我們都能為您提供精確的天氣資訊。",
 
-      picUrl: weatherPic,
+      picUrl: require("./media/wetherapp.png"),
     },
     {
       title: "Account-App",
@@ -99,4 +99,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Project;
