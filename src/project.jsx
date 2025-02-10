@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./component/card";
+import Card from "./components/card";
 import { useEffect } from "react";
 
 function Project() {
@@ -32,7 +32,7 @@ function Project() {
     },
     {
       title: "Account-App",
-      lang: ["HTML", "CSS", "JS", "React", "PHP"],
+      lang: ["HTML", "CSS", "JS", "React", "Node.js"],
       url: "https://yuzen9622.github.io/Account-App/#/",
       content:
         "歡迎來到我們的記帳網站，這是一個專為現代人設計的財務管理工具，旨在幫助您輕鬆地追蹤和管理個人或家庭的財務狀況。透過我們簡單易用的介面，您可以快速上手，不需要任何專業知識即可輕鬆操作。我們的網站提供多樣化的記帳分類，無論是日常開銷、收入、投資還是儲蓄，都能輕鬆記錄並管理。此外，我們還提供圖表和報表功能，讓您能夠直觀地了解自己的財務狀況，進而做出更明智的財務決策。",

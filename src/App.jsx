@@ -1,11 +1,11 @@
 import "./style/style.css";
 import Home from "./header";
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./component/navbar";
+import Navbar from "./components/navbar";
 
 import "./style/style.RWD.css";
 import Project from "./project";
-import Footer from "./component/footer";
+import Footer from "./components/footer";
 import Contact from "./contact";
 function App() {
   return (

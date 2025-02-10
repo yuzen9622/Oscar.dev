@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Input from "./component/input";
-import Toast from "./component/toast";
+import Input from "./components/input";
+import Toast from "./components/toast";
 
 function Contact() {
   const [data, setData] = useState({

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import myself from "./media/image.jpeg";
-import Circle from "./component/circle";
+import Circle from "./components/circle";
 export default function Home() {
   useEffect(() => {
     document.title = "Oscar.dev";
