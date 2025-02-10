@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Oscar.dev/static/css/main.6aa5ce27.css",
-    "main.js": "/Oscar.dev/static/js/main.47bc8695.js",
+    "main.js": "/Oscar.dev/static/js/main.bb6a11bf.js",
     "static/media/web3.png": "/Oscar.dev/static/media/web3.61462953424f3be4c635.png",
     "static/media/cloudshare.png": "/Oscar.dev/static/media/cloudshare.b4c7d4db7c1dc0166f77.png",
     "static/media/image.jpeg": "/Oscar.dev/static/media/image.585537edb1c0edc95ee6.jpeg",
     "static/media/wetherapp.png": "/Oscar.dev/static/media/wetherapp.058b2e1c5cc39ae13c97.png",
-    "static/media/account.png": "/Oscar.dev/static/media/account.51b7f7f89d6bfceaab41.png",
+    "static/media/account.png": "/Oscar.dev/static/media/account.68f70ff76e3dcd38eaf8.png",
     "static/media/chatapp.png": "/Oscar.dev/static/media/chatapp.783c32ac77d3921c58bc.png",
     "static/media/tictactoe.png": "/Oscar.dev/static/media/tictactoe.98b870d1aecf50e1f4ef.png",
     "index.html": "/Oscar.dev/index.html",
     "main.6aa5ce27.css.map": "/Oscar.dev/static/css/main.6aa5ce27.css.map",
-    "main.47bc8695.js.map": "/Oscar.dev/static/js/main.47bc8695.js.map"
+    "main.bb6a11bf.js.map": "/Oscar.dev/static/js/main.bb6a11bf.js.map"
   },
   "entrypoints": [
     "static/css/main.6aa5ce27.css",
-    "static/js/main.47bc8695.js"
+    "static/js/main.bb6a11bf.js"
   ]
 }
